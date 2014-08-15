@@ -2,23 +2,22 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_multilingual_static_content'
-  s.version     = '2.1.0'
+  s.version     = '2.3.0'
   s.summary     = 'Makes the spree-static-content gem multilingual'
   s.description = 'it uses the standard method like spree_i18n'
   s.required_ruby_version = '>= 1.9.3'
 
-  s.author    = 'cuon'
-  s.email     = 'info@cuon.co.jp'
-  s.homepage  = 'https://github.com/cuon/spree-multilingual-static-content'
+  s.author    = 'endenis'
+  s.homepage  = 'https://github.com/endenis/spree-multilingual-static-content'
 
   #s.files       = `git ls-files`.split("\n")
   #s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 2.1'
+  s.add_dependency 'spree_core', '~> 2.3'
 
-  s.add_development_dependency 'spree', '~> 2.1.0'
+  s.add_development_dependency 'spree', '~> 2.3.0'
   s.add_development_dependency 'capybara', '~> 2.1'
   s.add_development_dependency 'coffee-rails'
   s.add_development_dependency 'database_cleaner'
