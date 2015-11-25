@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_multilingual_static_content'
-  s.version     = '2.3.0'
+  s.version     = '3.0.0'
   s.summary     = 'Makes the spree-static-content gem multilingual'
   s.description = 'it uses the standard method like spree_i18n'
   s.required_ruby_version = '>= 1.9.3'
@@ -15,9 +15,9 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 2.3'
+  s.add_dependency 'spree_core', '~> 3.0'
 
-  s.add_development_dependency 'spree', '~> 2.3.0'
+  s.add_development_dependency 'spree', '~> 3.0'
   s.add_development_dependency 'capybara', '~> 2.1'
   s.add_development_dependency 'coffee-rails'
   s.add_development_dependency 'database_cleaner'
