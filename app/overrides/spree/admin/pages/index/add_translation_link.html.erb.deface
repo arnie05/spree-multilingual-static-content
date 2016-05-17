@@ -1,0 +1,5 @@
+<!-- insert_after 'erb[loud]:contains("link_to_delete")' -->
+<% if page.id %>
+  <%= link_to_with_icon 'translate', nil, admin_translations_path('pages', page.id), title: Spree.t(:'i18n.translations'), class: 'btn btn-sm btn-primary' %>
+
+<% end %>
